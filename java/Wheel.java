@@ -11,10 +11,10 @@ public class Wheel {
         String userdata = "";
         int n = 0;
 
-        BufferedReader br = new BufferedReader(new FileReader("input1.txt"));
-        //BufferedReader br = new BufferedReader(new FileReader("input2.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("src/main/resources/input1.txt"));
+        //BufferedReader br = new BufferedReader(new FileReader("src/main/resources/input2.txt"));
 
-        int n = Integer.parseInt(br.readLine());
+        n = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < n; i++) {
             String temp;
@@ -23,7 +23,6 @@ public class Wheel {
         }
         userdata = br.readLine();
         br.close();
-
 
         int conCnt = 0;
         int[] ffirst = { 0, 0, 0, 0, 0 };
