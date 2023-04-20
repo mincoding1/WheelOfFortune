@@ -5,14 +5,14 @@ import java.util.ArrayList;
 
 public class Wheel {
 
-    public static ArrayList<StringBuilder> strs = new ArrayList<>();
-    public static int[][] map = new int[5][50];
-    public static String userdata;
-    public static int n;
-
     public static void main(String[] args) throws IOException {
+        ArrayList<StringBuilder> strs = new ArrayList<>();
+        int[][] map = new int[5][50];
+        String userdata = "";
+        int n = 0;
 
-        BufferedReader br = new BufferedReader(new FileReader("input.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("input1.txt"));
+        //BufferedReader br = new BufferedReader(new FileReader("input2.txt"));
 
         int n = Integer.parseInt(br.readLine());
 
