@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	vector<string> strs;
-	int map[5][50] = { 0 };
+	int map[4][50] = { 0 };
 	string userdata = "";
 	int n = 0;
 
@@ -22,10 +22,10 @@ int main()
 	cin >> userdata;
 
 	int conCnt = 0;
-	int ffirst[5] = { 0 };
+	int ffirst[4] = { 0 };
 
 	int sum = 0;
-	int chance[5] = { -1, -1, -1, -1, -1 };
+	int chance[4] = { -1, -1, -1, -1 };
 
 	//하나씩 처리
 	//26글자 for 돌면서 퀴즈 참석자가 하나씩 시도를 하는 것
