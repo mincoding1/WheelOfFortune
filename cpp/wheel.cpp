@@ -87,7 +87,7 @@ int main()
 		}
 		else {
 			conCnt = 0;
-			for (int i = 0; i < 5; i++) chance[i] = -1;
+			for (int i = 0; i < 4; i++) chance[i] = -1;
 		}
 	}
 
