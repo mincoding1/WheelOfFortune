@@ -1,10 +1,10 @@
 import sys
 def get_award(n, strs, userdata):
-    map = [[0 for _ in range(50)] for _ in range(5)]
+    map = [[0 for _ in range(50)] for _ in range(4)]
     conCnt = 0
-    ffirst = [0] * 5
+    ffirst = [0] * 4
     sum = 0
-    chance = [-1] * 5
+    chance = [-1] * 4
     # 하나씩 처리
     # 26글자 for문 돌면서 퀴즈 참석자가 하나씩 시도를 하는 것
     for i in range(26):
@@ -47,5 +47,5 @@ def get_award(n, strs, userdata):
             sum += (conCnt * 100) * passCnt
         else:
             conCnt = 0
-            chance = [-1] * 5
+            chance = [-1] * 4
     return "$" + str(sum)
