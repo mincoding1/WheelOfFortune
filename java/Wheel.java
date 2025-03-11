@@ -7,7 +7,7 @@ public class Wheel {
 
     public static void main(String[] args) throws IOException {
         ArrayList<StringBuilder> strs = new ArrayList<>();
-        int[][] map = new int[5][50];
+        int[][] map = new int[4][50];
         String userdata = "";
         int n = 0;
 
@@ -25,10 +25,10 @@ public class Wheel {
         br.close();
 
         int conCnt = 0;
-        int[] ffirst = { 0, 0, 0, 0, 0 };
+        int[] ffirst = { 0, 0, 0, 0 };
 
         int sum = 0;
-        int[] chance = { -1, -1, -1, -1, -1 };
+        int[] chance = { -1, -1, -1, -1 };
 
 
         //하나씩 처리
@@ -91,7 +91,7 @@ public class Wheel {
                 sum += (conCnt * 100) * passCnt;
             } else {
                 conCnt = 0;
-                for (int t = 0; t < 5; t++) chance[t] = -1;
+                for (int t = 0; t < 4; t++) chance[t] = -1;
             }
         }
 
