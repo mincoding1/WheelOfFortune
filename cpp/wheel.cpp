@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	vector<string> strs;
-	int map[4][50] = { 0 };
+	int map[4][15] = { 0 };
 	string userdata = "";
 	int n = 0;
 
