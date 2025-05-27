@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Wheel {
+class Wheel {
 
     public static void main(String[] args) throws IOException {
         ArrayList<StringBuilder> strs = new ArrayList<>();
