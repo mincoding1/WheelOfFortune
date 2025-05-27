@@ -3,8 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-class Wheel {
-
+public class Main {
     public static void main(String[] args) throws IOException {
         ArrayList<StringBuilder> strs = new ArrayList<>();
         int[][] map = new int[4][50];
